@@ -20,6 +20,10 @@ a:hover {
     gap: 30px;
 }
 
+.simple {
+    color: darkslateblue
+}
+
 .title, .bottom {
     display: block;
     background-color: lightgray;
