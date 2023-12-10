@@ -6,6 +6,7 @@ body {
 
 h1 {
     font-size: 3rem;
+    margin: 20px;
 }
 
 a {
@@ -26,11 +27,16 @@ a:hover {
 }
 
 .one, .two {
-    display: flex;
+    flex: 1;
     background-color: lightgrey;
     padding: 20px;
     border-radius: 5px;
-    max-width: 600px;
+    max-width: 500px;
+}
+
+.bottom {
+
+    margin: 20px 0;
 }
 
 img {
@@ -47,7 +53,7 @@ img {
     }
 
     .box {
-        min-width: 400px;
+        min-width: 500px;
     }
 }
 
