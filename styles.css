@@ -9,6 +9,11 @@ h1 {
     margin: 20px;
 }
 
+.top {
+    display: inline-block;
+    width: 50%;
+}
+
 a {
     text-decoration: unset;
     color: darkslateblue;
@@ -23,6 +28,7 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     height: 100%;
+    width: 100%;
     gap: 30px;
 }
 
@@ -35,8 +41,13 @@ a:hover {
 }
 
 .bottom {
-
+    display: flex;
+    flex-direction: row;
     margin: 20px 0;
+}
+
+.bottom-container > a {
+    display: ;
 }
 
 img {
